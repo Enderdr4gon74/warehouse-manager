@@ -56,7 +56,7 @@
 }
 
 .bg-img-package-fragile {
-  background-image: url(Fragile-Package-Copy.png);
+  background-image: url(Fragile-Package-Sized.png);
   background-size: cover;
   background-position: center center;
   border: 4px solid var(--border-brown);
