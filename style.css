@@ -1,0 +1,84 @@
+:root {
+  --info: #0dcaf0;
+  --dark-info: #0a9dba;
+  --dark-white: #dcddde;
+  --light-dark: #151515d8;
+  --package-p: 3.8rem;
+  --border-brown: #783f04;
+}
+
+.height-10 {
+  min-height: 5rem;
+}
+
+.min-height-80 {
+  min-height: 90vh;
+}
+.min-width-90 {
+  min-width: 90vw;
+}
+
+.height-100per {
+  height: 100%;
+}
+
+.width-25per {
+  width: 25%;
+}
+
+.width-100per {
+  width: 100%;
+}
+
+.bg-dark-white {
+  background-color: var(--dark-white);
+  border-radius: 1rem;
+}
+
+.bg-dark-info {
+  background-color: var(--dark-info);
+}
+
+.bg-img-package {
+  background-image: url(Package.png);
+  background-size: cover;
+  background-position: center center;
+  border: 4px solid var(--border-brown);
+  border-radius: 1rem;
+}
+
+.bg-img-package-special {
+  background-image: url(Package-Sized.png);
+  background-size: cover;
+  background-position: center center;
+  border: 4px solid var(--border-brown);
+  border-radius: 1rem;
+}
+
+.bg-img-package-fragile {
+  background-image: url(Fragile-package.png);
+  background-size: cover;
+  background-position: center center;
+  border: 4px solid var(--border-brown);
+  border-radius: 1rem;
+}
+
+.bg-img-package-fragile-special {
+  background-image: url(Fragile-Package-Sized.png);
+  background-size: cover;
+  background-position: center center;
+  border: 4px solid var(--border-brown);
+  border-radius: 1rem;
+}
+
+.py-6 {
+  padding-top: var(--package-p);
+  padding-bottom: var(--package-p);
+}
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
